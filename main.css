@@ -1,3 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.player-panel {
+    display: flex;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.player-panel div {
+    display: flex;
+    align-items: center;
+    margin: 0 16px 0 16px;
+}
+
+.player-panel img {
+    height: 60px;
+    width: 60px;
+    margin-right: 16px;
+}
+
+.player-inactive {
+    opacity: 0.5;
+}
+
 tr {
     width: 399px;
 }
